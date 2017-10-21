@@ -1,5 +1,5 @@
 resource "google_compute_instance" "vm" {
-  name           = "virtual-ci"
+  name           = "gitlab-ci"
   machine_type   = "n1-standard-1"
   zone           = "europe-west1-b"
   tags           = ["http-server","https-server"]
